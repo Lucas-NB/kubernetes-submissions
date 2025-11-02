@@ -3,10 +3,13 @@ import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Main {
-  public static void main(String[] args) throws InterruptedException, NoSuchAlgorithmException {
+  public static void main(String[] args) throws InterruptedException {
+    List<String> outputStrings = new ArrayList<>();
     String[] letters = {
         "0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
         "a", "b", "c", "d", "e", "f"
@@ -26,7 +29,9 @@ public class Main {
       }
 
       String word = randomWord.toString();
-      System.out.println(String.format("%s: %s", formattedDate, randomWord));
+
+      outputStrings.add(word);
+      System.out.printf("%s: %s%n", formattedDate, word);
       Thread.sleep(5000);
     }
   }
