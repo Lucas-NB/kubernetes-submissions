@@ -1,4 +1,4 @@
 build:
 	javac -d build src/main/java/Main.java
-	docker build . -t hash-generator
+	docker build . -t lucasnicolas/log-output-app
 	rm -r build
