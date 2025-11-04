@@ -1,0 +1,8 @@
+services:
+  the-project:
+    image: lucasnicolas/the-project-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      PORT: 9007
