@@ -1,7 +1,14 @@
-FROM openjdk:17-jdk
+FROM openjdk:17.0.1-slim AS builder
 
-WORKDIR /usr/app/src
+WORKDIR /usr/app
 
-COPY build/Main.class Main.class
+COPY . .
+
+RUN javac src/main/java/Main.java
+
+
+FROM openjdk:17.0.1-slim
+
+COPY --from=builder /usr/app/src/main/java/Main.class .
 
 CMD ["java", "Main"]
