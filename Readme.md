@@ -5,3 +5,4 @@
 - 1.3 [Release](https://github.com/Lucas-NB/kubernetes-submissions/tree/1.3) [Directory](https://github.com/Lucas-NB/kubernetes-submissions/tree/1.3/log-output)
 - 1.4 [Release](https://github.com/Lucas-NB/kubernetes-submissions/tree/1.4) [Directory](https://github.com/Lucas-NB/kubernetes-submissions/tree/1.4/the-project)
 - 1.5 [Release](https://github.com/Lucas-NB/kubernetes-submissions/tree/1.5) [Directory](https://github.com/Lucas-NB/kubernetes-submissions/tree/1.5/the-project)
+- 1.6 [Release](https://github.com/Lucas-NB/kubernetes-submissions/tree/1.6) [Directory](https://github.com/Lucas-NB/kubernetes-submissions/tree/1.6/the-project)
